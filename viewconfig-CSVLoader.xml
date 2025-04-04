@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="0.5 0.5">
+        <CNode>
+            <Component label="Class hierarchy">
+                <Property id="pluginId" value="org.protege.editor.owl.OWLAssertedClassHierarchy"/>
+            </Component>
+        </CNode>
+        <HSNode splits="0.25">
+            <CNode>
+                <Component label="CSV Loader">
+                    <Property id="pluginId" value="org.protege.plugin.csv.CSVLoaderView"/>
+                </Component>
+            </CNode>
+        </HSNode>
+    </VSNode>
+</layout>

@@ -14,11 +14,11 @@
          your project.  If you don't know what to use for groupId,
          don't worry, you can deal with that when you are ready for maven.
       -->
-	<groupId>edu.stanford.protege</groupId>
-	<artifactId>org.protege.plugin.template</artifactId>
+	<groupId>it.poliba.protege</groupId>
+	<artifactId>org.protege.plugin.csv</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
-	<name>Dummy plugin</name> 
-	<description>A dummy plugin to jump-start developers</description> 
+	<name>CSV table</name> 
+	<description>Test for a csv</description> 
 
 
 	<packaging>bundle</packaging>
@@ -51,8 +51,8 @@
               <artifactId>maven-compiler-plugin</artifactId>
               <version>3.0</version>
               <configuration>
-                <source>1.6</source>
-                <target>1.6</target>
+                <source>1.8</source>
+                <target>1.8</target>
               </configuration>
             </plugin>
             <plugin>
@@ -71,7 +71,7 @@
 							org.protege.editor.owl.*;version="4.3",
 							*
 						</Import-Package>
-						<Include-Resource>plugin.xml, {maven-resources}</Include-Resource>
+						<Include-Resource>plugin.xml, viewconfig-CSVLoader.xml, {maven-resources}</Include-Resource>
 						<Private-Package>skeleton</Private-Package>
 					</instructions>
 					<executions>
